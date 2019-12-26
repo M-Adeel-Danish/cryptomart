@@ -1,7 +1,7 @@
 app:
   name: "OpenDAX"
-  domain: "app.local"
-  subdomain: "www"
+  domain: "cryptomart.us"
+  subdomain: "exchange"
 render_protect: false
 ssl:
   enabled: false    # Make sure to enable during deployment
