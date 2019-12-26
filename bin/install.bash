@@ -91,7 +91,21 @@ install_twilio() {
   npm install twilio-cli -g
 }
 
+install_vault() {
+  cd ~
+  wget https://releases.hashicorp.com/vault/1.3.0/vault_1.3.0_linux_amd64.zip
+  unzip vault_1.3.0_linux_amd64.zip
+  sudo mv vault /usr/bin/
+  rm -r vault_1.3.0_linux_amd64.zip
+}
 
+install_terraform() {
+  cd ~
+  wget https://releases.hashicorp.com/terraform/0.12.18/terraform_0.12.18_linux_amd64.zip
+  unzip terraform_0.12.18_linux_amd64.zip
+  sudo mv terraform /usr/bin/
+  rm -r terraform_0.12.18_linux_amd64.zip
+}
 
 # Function Calls (Sequince Matters!)
 add_user
@@ -102,4 +116,6 @@ log_rotation
 install_docker
 install_gcloud
 activate_gcloud
+install_vault
+install_terraform
 
