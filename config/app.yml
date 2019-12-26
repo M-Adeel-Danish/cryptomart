@@ -1,5 +1,5 @@
 app:
-  name: "OpenDAX"
+  name: "CryptoMART"
   domain: "cryptomart.us"
   subdomain: "exchange"
 render_protect: false
@@ -29,9 +29,9 @@ twilio:
   account_sid: "changeme"
   auth_token: "changeme"
 recaptcha:
-  type: "none"
-  siteKey: "changeme"
-  secretKey: "changeme"
+  type: "v3"
+  siteKey: "6Lc5xcEUAAAAAPC_CQXd_3BpE7PD1r_Or8ZViHXu"
+  secretKey: "6Lc5xcEUAAAAAEYANP4RUSRL47CNaSZjL9FXdorf"
 smtp:
   host: smtp.sendgrid.net
   port: 2525
