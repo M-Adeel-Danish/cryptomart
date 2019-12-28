@@ -67,7 +67,7 @@ Recommended if you enabled SSL, for local development edit the `/etc/hosts`
 
 Insert in file `/etc/hosts`
 ```
-0.0.0.0 www.app.local
+0.0.0.0 exchange.cryptomart.us
 ```
 
 #### 4.2 Bring everything up
@@ -77,7 +77,7 @@ rake service:all
 ```
 
 
-You can login on `www.app.local` with the following default users from seeds.yaml
+You can login on `exchange.cryptomart.us` with the following default users from seeds.yaml
 ```
 Seeded users:
 Email: admin@barong.io, password: 0lDHd9ufs9t@

@@ -12,8 +12,8 @@ arke:
   - id: 1
     driver: bitfaker
     debug: false
-    host: "http://www.app.local"
-    ws: "ws://www.app.local"
+    host: "http://exchange.cryptomart.us"
+    ws: "ws://exchange.cryptomart.us"
     key: ""
     secret: ""
     delay: 1
@@ -87,7 +87,7 @@ arke:
       target:
         driver: rubykube
         market: 'FTHUSD'
-        host: "http://www.app.local"
+        host: "http://exchange.cryptomart.us"
         key: ""
         secret: ""
         rate_limit: 1
