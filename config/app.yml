@@ -29,9 +29,9 @@ twilio:
   account_sid: "changeme"
   auth_token: "changeme"
 recaptcha:
-  type: "v3"
-  siteKey: "6Lc5xcEUAAAAAPC_CQXd_3BpE7PD1r_Or8ZViHXu"
-  secretKey: "6Lc5xcEUAAAAAEYANP4RUSRL47CNaSZjL9FXdorf"
+  type: "v2"
+  siteKey: "6LewvcsUAAAAAOFFpn2UI14iXObz_zgtHBXmDCIt"
+  secretKey: "6LewvcsUAAAAAFfoXC8Zgh4Y-v0mzQgyh-e01zVu"
 smtp:
   host: smtp.sendgrid.net
   port: 2525
