@@ -11,11 +11,11 @@ arke:
   accounts:
   - id: 1
     driver: bitfaker
-    debug: true
+    debug: false
     host: "http://exchange.cryptomart.us"
     ws: "ws://exchange.cryptomart.us"
-    key: "XmzJgETnf7WOBxZX2TJqaasDOHnO0XJ1vyzuBQkvXWw"
-    secret: "3Uft3gIGjRp0AUmRH069d1esiz3jB6j6WfW2GKHE0aW"
+    key: ""
+    secret: ""
     delay: 1
 
   - id: 2
