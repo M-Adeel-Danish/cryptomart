@@ -41,17 +41,26 @@ smtp:
   sender_name: Postmaster
 wallets:
   - kind: deposit
-    address: "changeme"
+    address: "0x1C9bDE003E47c2a797a0dB3C765356F938e00118"
     max_balance: 0.0
     secret: changeme
   - kind: hot
-    address: "changeme"
+    address: "0x1C9bDE003E47c2a797a0dB3C765356F938e00118"
     max_balance: 100.0
     secret: changeme
   - kind: warm
-    address: "changeme"
+    address: "0xF6d1398d12544423eA87fe0790e313cacC856d72"
     max_balance: 1000.0
     secret: changeme
+  - kind: fee
+    address: "0xdFb842793275B1B68bfBB74f7BeDF67bDCd95227"
+    max_balance: 1000.0
+    secret: changeme
+  - kind: cold
+    address: "0xfC49E51e5D36797e6Fc2DC89748d740aADa38Fa7"
+    max_balance: 1000.0
+    secret: changeme
+  
 terraform:
   credentials: "~/safe/opendax.json"
   project: "example-opendax"
